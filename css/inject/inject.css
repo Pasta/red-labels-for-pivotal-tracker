@@ -1,10 +1,36 @@
 .preview a.label.blocked {
-  background-color: hsl(349, 69%, 46%);
-  border-radius: 20px;
-  color: white;
-  margin: 0 2px;
+  /*background-color: hsl(349, 69%, 46%);*/
+  /*border-radius: 20px;*/
+  color: hsl(349, 69%, 46%);
+  /*margin: 0 2px;
   padding: 1px 6px 1px 6px;
-  white-space: nowrap;
+  white-space: nowrap;*/
+}
+
+.preview a.label.low_cost {
+  /*background-color: hsl(200, 69%, 46%);
+  border-radius: 20px;*/
+  color: hsl(148, 69%, 46%);
+  /*margin: 0 2px;
+  padding: 1px 6px 1px 6px;
+  white-space: nowrap;*/
+}
+
+.preview a.label.high_cost {
+  /*background-color: hsl(200, 69%, 46%);
+  border-radius: 20px;*/
+  color: hsl(314, 69%, 46%);
+  /*margin: 0 2px;
+  padding: 1px 6px 1px 6px;
+  white-space: nowrap;*/
+}
+.preview a.label.medium_cost {
+  /*background-color: hsl(200, 69%, 46%);
+  border-radius: 20px;*/
+  color: hsl(200, 69%, 46%);
+  /*margin: 0 2px;
+  padding: 1px 6px 1px 6px;
+  white-space: nowrap;*/
 }
 
 .labels_maker .selected.labels li a.label.blocked,

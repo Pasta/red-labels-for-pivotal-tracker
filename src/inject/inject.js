@@ -38,10 +38,12 @@ chrome.extension.sendMessage({}, function(response) {
 
       var styleLabels = function styleLabels(labels) {
         Array.prototype.forEach.call(labels, function(label) {
-          if (isLabelEligible(label.textContent)) {
-            label.classList.add('blocked');
+          var labelClass = isLabelEligible(label.textContent);
+          console.log(labelClass);
+          if (labelClass != null) {
+            label.classList.add(labelClass);
           } else {
-            label.classList.remove('blocked');
+            label.classList.remove(labelClass);
           }
         });
       }
