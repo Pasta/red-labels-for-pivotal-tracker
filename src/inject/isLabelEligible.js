@@ -20,7 +20,7 @@ var isLabelEligible = function isLabelEligible(labelText) {
   if (!!labelText.match(/\b(?:build)\b/)) {
       return 'build';
   }
-  if (!!labelText.match(/\b(?:blocked|needs)\b/)) {
+  if (!!labelText.match(/\b(?:blocked|needs|security)\b/)) {
       return 'blocked';
   }
   return null;
