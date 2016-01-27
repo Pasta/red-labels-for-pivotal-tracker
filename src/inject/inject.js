@@ -39,7 +39,6 @@ chrome.extension.sendMessage({}, function(response) {
       var styleLabels = function styleLabels(labels) {
         Array.prototype.forEach.call(labels, function(label) {
           var labelClass = isLabelEligible(label.textContent);
-          console.log(labelClass);
           if (labelClass != null) {
             label.classList.add(labelClass);
           } else {
