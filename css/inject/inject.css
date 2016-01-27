@@ -33,6 +33,15 @@
   white-space: nowrap;*/
 }
 
+.preview a.label.build {
+  /*background-color: hsl(200, 69%, 46%);
+  border-radius: 20px;*/
+  color: hsl(35, 100%, 50%);
+  /*margin: 0 2px;
+  padding: 1px 6px 1px 6px;
+  white-space: nowrap;*/
+}
+
 .labels_maker .selected.labels li a.label.blocked,
 .labels_maker .selected.labels li a.label.blocked + a.remove {
   background-color: hsl(349, 69%, 46%);
