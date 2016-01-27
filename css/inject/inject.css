@@ -13,9 +13,28 @@
   color: hsl(200, 69%, 46%);
 }
 
+.preview a.label.low_value {
+  color: hsl(14.4, 69%, 46%);
+}
+
+.preview a.label.medium_value {
+  color: hsl(198.7, 69%, 46%);
+}
+
+.preview a.label.high_value {
+  color: hsl(144.9, 69%, 46%);
+}
+
+
 .preview a.label.build {
   color: hsl(35, 100%, 50%);
 }
+
+/*
+*
+* COST
+*/
+
 
 .labels_maker .selected.labels li a.label.blocked,
 .labels_maker .selected.labels li a.label.blocked + a.remove {
@@ -59,7 +78,43 @@
   background-color: hsl(200, 69%, 32%);
 }
 
+/*
+*
+* VALUES
+*/
 
+.labels_maker .selected.labels li a.label.low_value,
+.labels_maker .selected.labels li a.label.low_value + a.remove {
+  background-color: hsl(14.4, 69%, 46%);
+}
+
+.labels_maker .selected.labels li a.label.low_value:hover,
+.labels_maker .selected.labels li a.label.low_value + a.remove:hover {
+  background-color: hsl(14.4, 69%, 32%);
+}
+.labels_maker .selected.labels li a.label.medium_value,
+.labels_maker .selected.labels li a.label.medium_value + a.remove {
+  background-color: hsl(198.7, 69%, 46%);
+}
+
+.labels_maker .selected.labels li a.label.medium_value:hover,
+.labels_maker .selected.labels li a.label.medium_value + a.remove:hover {
+  background-color: hsl(198.7, 69%, 32%);
+}
+.labels_maker .selected.labels li a.label.high_value,
+.labels_maker .selected.labels li a.label.high_value + a.remove {
+  background-color: hsl(144.9, 69%, 46%);
+}
+
+.labels_maker .selected.labels li a.label.high_value:hover,
+.labels_maker .selected.labels li a.label.high_value + a.remove:hover {
+  background-color: hsl(144.9, 69%, 32%);
+}
+
+/*
+*
+* BUILD
+*/
 .labels_maker .selected.labels li a.label.build,
 .labels_maker .selected.labels li a.label.build + a.remove {
   background-color: hsl(35, 69%, 46%);
